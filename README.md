@@ -1,2 +1,2 @@
 # Inicio da Jornada
-Organização e registro da jornada de estudo
+Organização e registro da jornada de estudo - BOOTCAMP DIO
