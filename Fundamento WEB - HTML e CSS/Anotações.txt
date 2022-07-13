@@ -1,0 +1,9 @@
+* REDES
+=> Backbone
+	- Espinha dorsal
+	- Costelas
+	- Poucas
+	- Espalhadas pelo mundo
+=> Provedor de acesso
+	- Empresas telefonicas
+	- Contratam o sinal do backbone e o repassam ao usuário final
