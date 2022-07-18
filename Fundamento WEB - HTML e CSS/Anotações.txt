@@ -1,9 +1,4 @@
-* REDES
-=> Backbone
-	- Espinha dorsal
-	- Costelas
-	- Poucas
-	- Espalhadas pelo mundo
-=> Provedor de acesso
-	- Empresas telefonicas
-	- Contratam o sinal do backbone e o repassam ao usuário final
+=> Links úteis:
+	https://unsplash.com/ (fotos de uso livre)
+	https://tinypng.com/ (Site para remover alguns dados desnecessario da imagem(metadados), otimizando para ganhar espaço)
+
