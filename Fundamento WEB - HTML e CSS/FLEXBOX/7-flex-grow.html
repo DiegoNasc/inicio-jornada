@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - flex grow</title>
+
+    <style>
+        .container {
+            display: flex;
+            border: 2px dashed lime;
+            max-width: 300px;
+            margin-bottom: 20px;
+            
+            
+        }
+
+        .item {
+            background-color: orangered;
+            margin: 5px;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        .flexgrow-0 {
+            flex-grow: 0;
+        }
+
+        .flexgrow-1 {
+            flex-grow: 1;
+        }
+
+        .flexgrow-2 {
+            flex-grow: 2;
+        }
+
+        .flexgrow-3 {
+            flex-grow: 3;
+        }
+    </style>
+</head>
+<body>
+    <P>Flex-grow: 0</P>
+    <div class="container">
+        <div class="item flexgrow-0">A</div>
+        <div class="item flexgrow-0">B</div>
+        <div class="item flexgrow-0">C</div>
+        <div class="item flexgrow-0">D</div>
+    </div>
+
+    <P>Flex-grow: 1</P>
+    <div class="container">
+        <div class="item flexgrow-1">A</div>
+        <div class="item flexgrow-1">B</div>
+        <div class="item flexgrow-1">C</div>
+        <div class="item flexgrow-1">D</div>
+    </div>
+
+    <P>Flex-grow: 2</P>
+    <div class="container">
+        <div class="item flexgrow-2">AAAAAA</div>
+        <div class="item flexgrow-2">BBB</div>
+        <div class="item flexgrow-2">C</div>
+        <div class="item flexgrow-2">D</div>
+    </div>
+
+    <P>Flex-grow: 3</P>
+    <div class="container">
+        <div class="item flexgrow-3">A</div>
+        <div class="item flexgrow-3">B</div>
+        <div class="item flexgrow-3">C</div>
+        <div class="item flexgrow-3">D</div>
+    </div>
+
+    <P>Flex-grow: Alternados</P>
+    <div class="container">
+        <div class="item flexgrow-1">A</div>
+        <div class="item flexgrow-2">B</div>
+        <div class="item flexgrow-2">C</div>
+        <div class="item flexgrow-1">D</div>
+    </div>
+</body>
+</html>
